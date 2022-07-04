@@ -1,0 +1,26 @@
+body {
+  color: blue;
+}
+
+.big_block {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  border: 15px solid #000;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.big_block .block {
+  width: 50%;
+  height: 50px;
+}
+.big_block .block .block_text {
+  font-size: 30px;
+}
+.big_block .block .block_text span {
+  color: green;
+}

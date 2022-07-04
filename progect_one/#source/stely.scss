@@ -1,0 +1,25 @@
+body {
+    color: blue;
+
+}
+
+.big_block {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    border: 15px solid #000;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    .block {
+        width: 50%;
+        height: 50px;
+        .block_text{
+            font-size: 30px;
+            span{
+                color:green;
+            }
+        }
+    }
+}
+    
+        
