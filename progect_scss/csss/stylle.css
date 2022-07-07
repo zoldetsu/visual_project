@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.link-2, .link {
+  border-bottom: 5px dashed red;
+  /*can across point*/
+}
+
+body {
+  color: blue;
+  font-size: 50px;
+}
+
+.content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 98%;
+  margin: 0px 0px 0px 0px;
+  border: 15px solid #000;
+  border-radius: 10px;
+  padding: 300px 0px 0px 0px;
+}
+
+.big_block {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.big_block > p {
+  color: red;
+}
+.big_block .block {
+  width: 50%;
+  height: 50px;
+}
+.big_block .block .block_text {
+  font-size: 30px;
+}
+.big_block .block .block_text span {
+  color: green;
+}
+
+.link {
+  font-size: 50px;
+  color: aquamarine;
+  text-decoration: underline;
+}
+.link:hover {
+  color: blue;
+}
+
+.link-2 {
+  font-size: "100px";
+}
