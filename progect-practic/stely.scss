@@ -1,0 +1,76 @@
+@import "nullstely.scss";
+
+
+//переменные
+$fz:300px;
+$color_1:blue;
+
+
+//шаблон
+%tplborder{
+    border-bottom: 5px dashed red;/*can across point*/
+}
+
+
+//шаблон
+@mixin fontz($f){
+    font-size: $f;
+}
+
+body {
+    color: $color_1;
+    font-size: 50px;
+
+}
+
+
+.content {
+    
+    position: relative;
+    width: 98%;
+    
+    border: 15px solid #000;
+    border-radius: 10px;
+    padding: $fz 0px 0px 0px;
+    
+    
+}
+.big_block  {
+    
+    
+    position: absolute;
+    top: 0;
+    left:35%;
+    
+    >p {
+        color:red;
+    }
+
+
+    .block {
+        width: 50%;
+        height: 50px;
+        .block_text{
+            font-size: 30px;
+            span{
+                color:green;
+            }
+        }
+    }
+}
+    
+.link{
+    font-size: 50px;
+    color: aquamarine;
+    text-decoration: underline;
+    &:hover{
+        color:$color_1;
+    }
+    @extend %tplborder;
+    transition-duration: 1s;
+}
+.link-2{
+    @include fontz('100px');
+    
+    @extend %tplborder;
+}

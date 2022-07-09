@@ -1,0 +1,73 @@
+
+@import "nullstely.scss";
+@mixin flex($fx) {
+    display: $fx;
+    
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:url("../img/UnicornVectorGradient_2.jpg")
+    
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 1000px;
+    
+    
+    
+    .content-top{
+        margin: 15px;
+
+    
+        text-align: center;
+        .navigation{
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+           .navi{
+                
+
+                @include flex(flex);
+                li{
+                    display: block;
+                    margin: 0px 0px 0px 15px;
+                    text-transform: uppercase;
+                    &:hover{
+                        color: rgb(110, 197, 91);
+                        transition: color 0.5ms linear;
+                        
+                    }
+             
+                    }
+
+            }
+            .navigation-right{
+                text-transform: uppercase;
+            }
+        
+
+        }
+    }
+    .content-half{
+        display: flex;
+        margin: 50px 0px 0px 0px;
+        border-radius: 16px;
+        background-color: rgb(233, 229, 225);
+       
+    
+        
+        .content-half__photo{
+            padding-right: 0px;
+            
+                         
+        }
+        .content-half__text {
+            display:  inline-block;
+            padding-left: 50px;
+            margin: 20px 50px 20px 5px;
+        }
+    }   
+
+
+}
