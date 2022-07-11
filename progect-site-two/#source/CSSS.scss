@@ -1,0 +1,130 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+
+%backg {
+    background-color: #E2FF6F;
+}
+
+.body {
+    @extend %backg;
+    
+}
+
+.body-flex {
+    display: flex;
+    justify-content: space-between;
+    
+    @extend %backg;
+    
+}
+
+.wraper {
+    @extend %backg;
+    
+}
+.content {
+    @extend %backg;
+    
+    max-width: 1241px;
+    margin: 0px auto;
+    .header{
+        background-color: #E2FF6F;
+        margin: 30px 0px 141px;
+    }
+    
+
+    .body-image{
+        
+       
+        .image{
+           position: absolute;
+        
+            right: 0px;
+            top: 50px;
+            
+
+        }
+    }
+    .body-box {
+       
+            
+        
+        .body__title {
+            max-width: 3100px;
+            display: block;
+            padding: 0px 0px 20px 0px;
+            .body_logo {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 100.939px;
+                line-height: 169px;
+                letter-spacing: -0.03em;
+                margin: 0px 0px 27px;
+            }
+            .body_text {
+                width: 600px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 66.6909px;
+                line-height: 75px;
+                margin: 0px 0px 152px;
+                
+
+                letter-spacing: -0.02em;
+            }
+            .body_buttom{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 56.6909px;
+                line-height: 75px;
+                /* or 113% */
+
+                letter-spacing: -0.02em;
+
+            }
+        }
+    }
+    
+   
+   
+}
+
+.wraper {
+}
+.content {
+}
+.body-image {
+}
+.header {
+}
+.body-box {
+}
+.image {
+}
+.header_image {
+}
+.body__title {
+}
+.body_logo {
+}
+.body_text {
+}
+.body_buttom {
+}
