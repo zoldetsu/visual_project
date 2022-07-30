@@ -1,0 +1,282 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    width: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    
+    
+img{
+    max-width: 100%;
+}
+    
+}
+._container{
+   
+    width: 100%;
+    max-width: 946px;
+    margin: 0 auto;
+    
+}
+.header{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 100;
+    
+    .nav{
+        padding: 33.05px 0px 31.86px 0px;            
+        display: flex;
+        justify-content: space-between;
+        border-bottom:2px solid #828282;
+        a{
+            font-family: 'Lato';
+            font-size: 18px;                
+            line-height: 22px;
+        }
+            }
+        
+        }
+        
+    
+    
+
+.person{
+    .person_container{
+        padding: 128.13px 0px 104.06px 0px;
+        .person-text{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 0px 30px 0px;
+            align-items: center;
+            .text_name{
+                font-family: 'Lato';
+                font-size: 47.3392px;
+                line-height: 59px;
+            }
+            .text_years{
+                font-family: 'Lato';
+                font-size: 18px;
+                line-height: 22px;
+
+            }
+            .text_vertical{
+                font-family: 'Lato';
+                font-size: 16px;
+                line-height: 20px;
+
+                transform: rotate(-90deg);
+                span{
+                    color: #828282;
+                }
+
+            }
+            .person_image{
+                position: relative;
+                
+                max-width: 100%;
+                .imgg{
+                    position: absolute;
+                    
+                }
+                
+
+                
+            }
+        }
+
+   } 
+}
+
+.about-me{
+    
+    width: 100%;
+    background: #F6F6F6;
+    .about_container{
+        padding-top: 120.5px;
+        padding-bottom: 107px;
+        display: flex;
+        flex-direction: column;
+        
+        text-align: center;
+        .text-fat{
+            padding-bottom: 17px;
+            font-family: 'Lato';
+            font-size: 34px;
+            line-height: 42px;
+        }
+        .text-me{
+            padding-bottom:30px ;
+            font-family: 'Lato';
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+    }
+}
+
+.skills{
+    width: 100%;
+    .skills_container{
+        padding-top:91px;
+        padding-bottom: 110.06px;
+        display: block;
+
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        .skills-title{
+            padding-bottom: 69.1px;
+            font-family: 'Lato';
+            font-size: 34px;
+            line-height: 42px;
+        }
+        .skills-text{
+            padding-bottom: 83.49px;
+            font-family: 'Lato';
+            font-size: 18px;
+            line-height: 22px;
+            
+        }
+        .skills-program{
+            display: flex;
+            flex-wrap: wrap;
+            
+            
+            
+           
+            
+            
+            
+            .program{
+                width: 25%;
+                
+                
+                
+                .prog-img{
+                    padding-bottom: 24.21px;
+                    
+                }
+                .prog-name{
+                    padding-bottom: 41.41px;
+                    font-family: 'Lato';
+                    font-size: 14px;
+                    line-height: 17px;
+                    
+                }
+
+            }
+            
+            
+            
+        }
+        
+    }
+}
+
+.portfolio{
+    width: 100%;
+    background: #F6F6F6;
+    .portfolio_container{
+        text-align: center;
+        .portfolio-block{
+            .port-title{
+
+                padding: 112.93px 0px 47px 0px;
+                font-family: 'Lato';
+                font-size: 34px;
+                line-height: 42px;
+            }
+        .port-text{
+            padding: 44px 0px 99px 0px;
+            font-family: 'Lato';
+            font-size: 18px;
+            line-height: 22px;
+            
+            text-decoration-line: underline;
+        }
+    
+        }
+    }
+}
+
+.footer{
+    .footer_container{
+        align-items: center;
+        text-align: center;
+        .footer-title{
+            margin: 114.24px 0px 20.03px 0px;
+            font-family: 'Lato';
+            font-size: 34px;
+            line-height: 42px;
+            
+        }
+        .footer_text{
+            font-family: 'Lato';
+            font-size: 18px;
+            line-height: 22px;
+            margin: 0px 0px 29.6px 0px;
+        }
+        .fot-buttom{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+
+            background: black;
+            min-width: 180px;
+            min-height: 42px;
+            border-radius: 20px;
+            margin: 0px 0px 86px 0px;
+                
+
+            .buttom{
+                
+                
+                color: white; 
+                
+
+            }
+        }
+        .footer-social{
+            
+
+            display:flex ;
+            justify-content: center;
+            margin: 0px 0px 46px 0px;
+            .social{
+                margin: 0px 0px 0px 60px;
+            }
+            .social:first-child{
+                margin: 0px 0px 0px 0px;
+            }
+        }
+        .footer-end{
+            font-family: 'Lato';
+            font-size: 14px;
+            line-height: 17px;
+            padding: 0px 0px 123px 0px;
+            
+
+        }
+    }
+}

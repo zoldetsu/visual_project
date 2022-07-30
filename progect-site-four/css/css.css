@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  width: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.wrapper img {
+  max-width: 100%;
+}
+
+._container {
+  width: 100%;
+  max-width: 946px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+.header .nav {
+  padding: 33.05px 0px 31.86px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #828282;
+}
+.header .nav a {
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.person .person_container {
+  padding: 128.13px 0px 104.06px 0px;
+}
+.person .person_container .person-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 0px 30px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.person .person_container .person-text .text_name {
+  font-family: "Lato";
+  font-size: 47.3392px;
+  line-height: 59px;
+}
+.person .person_container .person-text .text_years {
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 22px;
+}
+.person .person_container .person-text .text_vertical {
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.person .person_container .person-text .text_vertical span {
+  color: #828282;
+}
+.person .person_container .person-text .person_image {
+  position: relative;
+  max-width: 100%;
+}
+.person .person_container .person-text .person_image .imgg {
+  position: absolute;
+}
+
+.about-me {
+  width: 100%;
+  background: #F6F6F6;
+}
+.about-me .about_container {
+  padding-top: 120.5px;
+  padding-bottom: 107px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.about-me .about_container .text-fat {
+  padding-bottom: 17px;
+  font-family: "Lato";
+  font-size: 34px;
+  line-height: 42px;
+}
+.about-me .about_container .text-me {
+  padding-bottom: 30px;
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.skills {
+  width: 100%;
+}
+.skills .skills_container {
+  padding-top: 91px;
+  padding-bottom: 110.06px;
+  display: block;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.skills .skills_container .skills-title {
+  padding-bottom: 69.1px;
+  font-family: "Lato";
+  font-size: 34px;
+  line-height: 42px;
+}
+.skills .skills_container .skills-text {
+  padding-bottom: 83.49px;
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 22px;
+}
+.skills .skills_container .skills-program {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.skills .skills_container .skills-program .program {
+  width: 25%;
+}
+.skills .skills_container .skills-program .program .prog-img {
+  padding-bottom: 24.21px;
+}
+.skills .skills_container .skills-program .program .prog-name {
+  padding-bottom: 41.41px;
+  font-family: "Lato";
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.portfolio {
+  width: 100%;
+  background: #F6F6F6;
+}
+.portfolio .portfolio_container {
+  text-align: center;
+}
+.portfolio .portfolio_container .portfolio-block .port-title {
+  padding: 112.93px 0px 47px 0px;
+  font-family: "Lato";
+  font-size: 34px;
+  line-height: 42px;
+}
+.portfolio .portfolio_container .portfolio-block .port-text {
+  padding: 44px 0px 99px 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.footer .footer_container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.footer .footer_container .footer-title {
+  margin: 114.24px 0px 20.03px 0px;
+  font-family: "Lato";
+  font-size: 34px;
+  line-height: 42px;
+}
+.footer .footer_container .footer_text {
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0px 0px 29.6px 0px;
+}
+.footer .footer_container .fot-buttom {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: black;
+  min-width: 180px;
+  min-height: 42px;
+  border-radius: 20px;
+  margin: 0px 0px 86px 0px;
+}
+.footer .footer_container .fot-buttom .buttom {
+  color: white;
+}
+.footer .footer_container .footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 0px 46px 0px;
+}
+.footer .footer_container .footer-social .social {
+  margin: 0px 0px 0px 60px;
+}
+.footer .footer_container .footer-social .social:first-child {
+  margin: 0px 0px 0px 0px;
+}
+.footer .footer_container .footer-end {
+  font-family: "Lato";
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0px 0px 123px 0px;
+}
