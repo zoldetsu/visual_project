@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+.container {
+    max-width: 1328px;
+    margin: 0px auto;
+}
+
+
+.list-one {
+    min-height: 100%;
+    overflow: hidden;
+    background: #4A2B33;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44.53px;
+
+}
+.mini{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #D27487;
+}
+.mini:not(:last-child){
+    padding: 0px 20px 0px 0px;
+
+}
+
+.link:not(:first-child){
+    padding: 0px 0px 0px 17px;
+
+}
+.basic-photo{
+    margin-top:44.64px;
+    padding:0px 0px 36px 0px;
+}
+
+.list-two{
+    margin: 220px 0px 244px 0px;
+}
+
+.title{
+    text-align: center;
+    
+}
+.mini-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.basic-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.list-three{
+    background: #E9E9E3;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding:120px 0px 120px 0px;
+
+}
+
+.name-menu{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.text-menu{
+    margin: 0px 0px 74px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+
+.buttom{
+    border: 3px solid #4A2B33;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    min-width: 448px;
+    display: block;
+    min-height: 34px;
+    text-align: center;
+    line-height: 34px;
+    color:black;
+    transition: all 0.5s;
+
+    
+ }
+
+
+
+
+.buttom:hover{
+    background:#6F6F64;
+    color:white;
+}
+.buttom-food{
+    
+    padding: 0px 0px 12px 0px;
+}
+.buttom-drinks{
+    
+    padding: 0px 0px 12px 0px;
+}
+
+.infolist{
+    display: flex;
+    justify-content: space-between;
+}
