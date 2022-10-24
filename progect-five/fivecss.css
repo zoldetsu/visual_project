@@ -148,20 +148,23 @@ img{
 
 .infolist{
     display: flex;
-    justify-content: space-between;
+    
+    align-items: center;
     padding:  120px 0px 135px 0px;
 
 }
 
 .stolb{
+    display: inline-block;
+    width: 33.33333%;
     text-align: center;
-    margin: 0px 100px;
+    margin: 0px 60px;
 
 }
 .d-name {
     color:white;
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -178,9 +181,59 @@ img{
 
 .mi{
     display: inline-block;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+}
+
+
+/*five*/
+
+.allphotos {
+    display: flex;
+    
+    padding:  152px 0px 120px 0px;
+}
+
+
+.photos-one{
+    margin-bottom: 45px;
+
 }
 
 
 
+.list-six{
+    background-color: #4A2B33;
+}
+.back{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 129px 0px 133px 0px;
+    
+}
 
+.aw{
+    color:#D27487;
+}
+
+
+.award{
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 62px;
+    padding-right:50px;
+    padding-left:50px;
+    width: 35%;
+}
+
+.lorem{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 40%;
+  
+}
