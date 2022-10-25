@@ -237,3 +237,43 @@ img{
     width: 40%;
   
 }
+
+
+.seven {
+    margin: 56px 350px 0px 350px;
+    
+    
+}
+
+.down{
+    margin-bottom: 19px;
+}
+.downword:not(:last-child){
+    display: inline-block;
+    padding: 0px 32px 0px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    }
+
+
+.pri{
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+}
+.mustdown{
+    display: flex;
+    justify-content: space-between;
+}
+
+.must{
+    color: 
+    #696969;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    }
