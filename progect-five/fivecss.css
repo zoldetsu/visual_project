@@ -87,10 +87,12 @@ img{
 }
 .menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding:120px 0px 120px 0px;
 
 }
+
 
 .name-menu{
     font-family: 'Inter';
@@ -189,13 +191,14 @@ img{
 
 .allphotos {
     display: flex;
-    
+    position: relative;
     padding:  152px 0px 120px 0px;
 }
 
 
 .photos-one{
     margin-bottom: 45px;
+    position: absolute;
 
 }
 
@@ -277,3 +280,34 @@ img{
     font-size: 13px;
     line-height: 20px;
     }
+
+@media (max-width:1300px){
+    .allphotos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    img{
+        width: 50%;
+    }
+}
+
+@media (max-width:1202px){
+    .buttoms{
+        margin-bottom: 100px;
+    }
+    .menu{
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:722px){
+    .infolist{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .stolb:not(:last-child){
+        margin-bottom: 30px;
+    }
+}
