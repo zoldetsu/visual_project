@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 944px;
+    margin: 0 auto;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
