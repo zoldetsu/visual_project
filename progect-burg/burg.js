@@ -7,7 +7,7 @@ menuBtn.addEventListener('click',() =>{
 } )
 
 
-let remm = document.querySelectorAll('link');
+let remm = document.querySelectorAll('.link');
 
 remm.forEach(n => n.addEventListener('click',closemenu));
 
@@ -15,3 +15,4 @@ function closemenu() {
     menuBtn.classList.remove('active');
     menu.classList.remove('active');
 }
+
