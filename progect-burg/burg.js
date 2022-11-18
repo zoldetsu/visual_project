@@ -1,9 +1,11 @@
 let menuBtn = document.querySelector('.menu-btn');
 
-let menu = document.querySelector('.header');
+let menu = document.querySelector('.popup');
+let head = document.querySelector('.header')
 menuBtn.addEventListener('click',() =>{
     menuBtn.classList.toggle('active');
     menu.classList.toggle('active');
+    head.classList.toggle('active');
 } )
 
 
