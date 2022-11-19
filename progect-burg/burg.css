@@ -14,17 +14,20 @@
 
 }
 
-.header{
+
+nav{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
+
 .menu-btn{
     width: 30px;
     height: 30px;
     position: relative;
-    z-index: 3;
+    z-index: 2;
     overflow: hidden;
     opacity: 0;
+    padding: 30px;
 }
 .menu-btn span{
     width: 30px;
@@ -34,7 +37,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: blueviolet;
-    transition: all 0.5s;
+    transition: all 0.1s;
 }
 
 .menu-btn span:nth-of-type(2){
@@ -59,17 +62,12 @@ li{
 }
 
 
-
-
-
-
-
-
-
 @media(max-width:770px){
     
     .menu-btn{
+    z-index: 4;
     opacity: 1;
+    
     }
     
     .popup{
@@ -77,8 +75,8 @@ li{
         top: 0;
         left: -100%;
         width: 100%;
-        height: 100%;
-        background-color: brown;
+        height: 50%;
+        background-color: rgb(55, 138, 135);
         z-index: 1;
         display: flex;
         
@@ -99,7 +97,7 @@ li{
         padding: 15px;
         z-index: 3;
         
-        transition: transform 0.5s;   
+        transition:  0.5s;   
     }
     .header.active{
         z-index: 3;
@@ -108,10 +106,26 @@ li{
         
     }
     nav{
-        display: block;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
     }
+    li{
+        width: 100%;
+    }
+
+    a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+   
     .menu-btn.active span:first-of-type {
-        transform: translateX(100%);
+        opacity: 0;
     
     }
     .menu-btn.active span:nth-of-type(2){
@@ -123,3 +137,4 @@ li{
         transform: translate(-50%,-50%) rotate(-45deg);
     }
 }
+
