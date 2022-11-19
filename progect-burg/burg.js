@@ -2,6 +2,7 @@ let menuBtn = document.querySelector('.menu-btn');
 
 let menu = document.querySelector('.popup');
 let head = document.querySelector('.header')
+let end = document.querySelector('.popup,active')
 menuBtn.addEventListener('click',() =>{
     menuBtn.classList.toggle('active');
     menu.classList.toggle('active');
@@ -18,3 +19,4 @@ function closemenu() {
     menu.classList.remove('active');
 }
 
+if (end ); 
