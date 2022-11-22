@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color:white ;
+    list-style: none;
+    
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+body{
+    background-color: #181818;
+}
+
+
+.site{
+    
+    overflow: hidden;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.two-place{
+    display: flex;
+    
+}
+.profile{
+    max-width: 300px;
+}
+.used{
+    
+    height:100%;
+    background-color: #202020;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-name{
+    
+    text-align: center;
+}
+
+.profile-social{
+    margin: 16px 0px 60px 0px ;
+}
+
+.profile-about{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.profile-buttoms{
+    display: flex;
+    align-items: center;
+}
+.buttom:not(:last-child){
+    margin: 0px 20px 0px 0px;
+}
+.profile-buttoms a{
+    position: absolute;
+    top: 13px;
+    left:25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+.buttom {
+    border-radius: 25px;
+    position: relative;
+    width: 120px;
+    height: 40px;
+    background-color: red;
+}
+.buttom-blue{
+    
+    background-color: blue;
+}
+
+
+.content{
+    background-color: #181818;
+}
+.header{
+    background-color:#0D0D0D;
+    display: flex;
+}
+.navig{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+}
+li:not(:last-child){
+    margin-right: 23px;
+}
+.seach{
+    align-items: center;
+   
+    display: flex;
+}
+.navig a:first-child{
+    margin-left:15px ;
+}
+.last-link{
+    
+    padding-left: 100px;
+    padding-right: 30px;
+}
+.enter{
+    width: 212px;
+    height: 40px;
+    margin: 0px 0px 0px 0px;
+    background-color: #202020;
+    box-shadow: -7px 1px 10px rgba(0, 0, 0, 0.3);
+}
+.link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+@media(max-width:1000px){
+    .last-link{
+    
+        padding-left: 70px;
+        padding-right: 30px;
+    }
+}
+
+@media(max-width:968px){
+
+    .menu-btn{
+    
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+        opacity: 0;
+        padding: 30px;
+    }
+    .menu-btn span{
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: white;
+        transition: all 0.1s;
+    }
+    
+    .menu-btn span:nth-of-type(2){
+        top: calc(50% - 5px);
+    }
+    .menu-btn span:nth-of-type(3){
+        top: calc(50% + 5px);
+    }
+    .last-link{
+    
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .enter{
+        position: fixed;
+        top: 0px;
+        right: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navig{
+        display: flex;
+        position: fixed;
+        top: 20px;
+        left: -100%;
+        transition: 0.1s;
+        z-index: 4;
+    }
+    .navig.active{
+        top: 300px;
+        left:30px;
+        
+    }
+    .navig a{
+        padding: 20pxроорпваолдшнмии ещпшдлмьба0гот8;
+        
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .profile{
+        position: fixed;
+        top:40px;
+        left: -100%;
+        transition:  0.1s;
+        z-index: 3;
+    }
+    .profile.active{
+        left: 0;
+    }
+    .content{
+        background-color: #181818;
+    }
+    .site{
+        background-color:#181818 ;
+    }
+    .menu-btn{
+
+        z-index: 5;
+        opacity: 1;
+    }
+
+    
+    .menu-btn.active span:first-of-type {
+        opacity: 0;
+    
+    }
+    .menu-btn.active span:nth-of-type(2){
+        top: 50%;
+        transform: translate(-50%,-50%)rotate(45deg);
+    }
+    .menu-btn.active span:nth-of-type(3){
+        top: 50%;
+        transform: translate(-50%,-50%) rotate(-45deg);
+    }
+    .profile-about{
+        opacity: 0;
+    }
+    .basic-photo img{
+        
+        object-fit: cover;
+        width: 300px;
+        height: 100px;
+        
+    }
+    .profile-photo img {
+        object-fit: cover;
+        width: 65px;
+        height: 65px;
+    }
+    .profile-for-menu{
+        margin-top:30px ;
+        display: flex;
+        align-items: center;
+    }
+}
+    
+    
