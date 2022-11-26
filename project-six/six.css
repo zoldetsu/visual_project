@@ -27,6 +27,9 @@ body{
     display: flex;
     
 }
+header{
+    display: none;
+}
 .profile{
     max-width: 300px;
 }
@@ -122,11 +125,16 @@ li:not(:last-child){
     background-color: #202020;
     box-shadow: -7px 1px 10px rgba(0, 0, 0, 0.3);
 }
+
 .link{
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
+}
+
+.ulswap{
+    display: none;
 }
 
 @media(max-width:1000px){
@@ -138,6 +146,16 @@ li:not(:last-child){
 }
 
 @media(max-width:968px){
+    .link-swap{
+        
+        display: block;
+        position: relative;
+    }
+    .ulswap{
+        position: absolute;
+        display: block;
+        padding-left: 30px ;
+    }
 
     .menu-btn{
     
@@ -147,11 +165,12 @@ li:not(:last-child){
         z-index: 2;
         overflow: hidden;
         opacity: 0;
-        padding: 30px;
+        margin-left: 15px;
+        
     }
     .menu-btn span{
         width: 30px;
-        height: 2px;
+        height: 3px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -166,41 +185,76 @@ li:not(:last-child){
     .menu-btn span:nth-of-type(3){
         top: calc(50% + 5px);
     }
+    .enter2{
+        width: 212px;
+        height: 40px;
+        margin: 0px 0px 0px 0px;
+        background-color: #202020;
+        box-shadow: -7px 1px 10px rgba(0, 0, 0, 0.3);
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .last-link{
     
         padding-left: 30px;
         padding-right: 30px;
     }
     .enter{
-        position: fixed;
-        top: 0px;
-        right: 0;
-        display: flex;
-        justify-content: flex-end;
+        display: none;
+        
     }
     .navig{
         display: flex;
         position: fixed;
-        top: 20px;
+        top: 230px;
         left: -100%;
         transition: 0.1s;
         z-index: 4;
     }
     .navig.active{
-        top: 300px;
+        top: 200px;
         left:30px;
         
     }
+    .link{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        
+    }
+    .link-opacity{
+        opacity: 0;
+    }
+
+   
     .navig a{
-        padding: 20pxроорпваолдшнмии ещпшдлмьба0гот8;
+        padding-bottom: 20px;
         
     }
     .nav{
+        height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
 
     }
+    .nav li{
+        width: 100%;
+    }
+    .nav li a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+
     .profile{
+        background-color: #0D0D0D;
         position: fixed;
         top:40px;
         left: -100%;
@@ -208,7 +262,12 @@ li:not(:last-child){
         z-index: 3;
     }
     .profile.active{
+        
         left: 0;
+    }
+    .used{
+        background-color: #0D0D0D;
+        height: 100%;
     }
     .content{
         background-color: #181818;
@@ -254,6 +313,24 @@ li:not(:last-child){
         margin-top:30px ;
         display: flex;
         align-items: center;
+    }
+    .profile-name{
+        padding-top: 10px;
+
+    }
+    .info{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .profile-social{
+        display: none;
+    }
+    .profile-buttoms{
+        margin-top: 49px;
+        margin-bottom: 15px;
     }
 }
     
