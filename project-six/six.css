@@ -97,9 +97,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 40px;
 }
 
 .nav{
+    
     display: flex;
 }
 li:not(:last-child){
@@ -113,11 +115,11 @@ li:not(:last-child){
 .navig a:first-child{
     margin-left:15px ;
 }
-.last-link{
-    
-    padding-left: 100px;
+.linkbut{
+    padding-left: 70px;
     padding-right: 30px;
 }
+
 .enter{
     width: 212px;
     height: 40px;
@@ -133,10 +135,53 @@ li:not(:last-child){
     line-height: 13px;
 }
 
-.ulswap{
-    display: none;
+
+/*cards------------------------------------------------*/
+
+.container2{
+    max-width: 608px;
+    margin: 0 auto;
 }
 
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.card{
+    position: relative;
+    width: 140px;
+    height: 195px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.img-fut{
+    top: -10px;
+    left: -15px;
+    position: absolute;
+    
+}
+.card-name{
+    left:13px;
+    top: 14px;
+    position: absolute;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+}
+.card-date{
+    position: absolute;
+    top:170px;
+    left:55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+}
 @media(max-width:1000px){
     .last-link{
     
@@ -146,17 +191,8 @@ li:not(:last-child){
 }
 
 @media(max-width:968px){
-    .link-swap{
-        
-        display: block;
-        position: relative;
-    }
-    .ulswap{
-        position: absolute;
-        display: block;
-        padding-left: 30px ;
-    }
 
+   
     .menu-btn{
     
         width: 30px;
